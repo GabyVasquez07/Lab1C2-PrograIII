@@ -1,6 +1,10 @@
 import sys
 from PyQt5 import uic, QtWidgets
 #Acá importamos los paquetes a utilizar, siendo estos sys, PyQt5, uic y QtWidgets
+"""
+Construir un programa que muestre una ventana a través de la cual se puedan leer 10 datos
+característicos de una persona.
+"""
 class VentanaPersona(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
