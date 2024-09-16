@@ -1,6 +1,11 @@
 import sys
 from PyQt5 import uic, QtWidgets
 #Primero importamos los paquetes a utilizar, en este caso, sys, PyQt5 incluyendo la uic y el QtWidgets
+
+"""
+Ejercicio 4: Construir un programa que muestre una ventana a través de la cual 
+se puedan leer tres datos básicos de 3 mascotas diferentes.
+"""
 class VentanaMascotas(QtWidgets.QMainWindow):#Creamos la clase para las mascotas
     def __init__(self):
         super().__init__()
